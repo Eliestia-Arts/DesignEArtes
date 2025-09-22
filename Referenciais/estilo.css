@@ -1,0 +1,83 @@
+/* Primeiro, importamos a referência, de onde o site vai pegar as fontes! */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+*{
+    font-family: "Gentium Book Plus", serif;
+}
+
+body{
+    height: 100vh;
+    background: url('../Imagens/Background.jpg');
+}
+
+/* Padronização do tamanho, fundo, espaçamento e animação da logo */
+#logo{
+    width: 150px;
+   transition: transform .5s ease;
+}
+#logo:hover{
+    transform: scale(1.2);
+}
+.logobox{
+    background-color: #777;
+    align-content: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 180px;
+    height: 100px;
+    border-radius: 15px;
+    transition: transform .5s ease;
+}
+.logobox:hover{
+    background-color: rgb(168, 81, 168);
+    transform: scale(0.9);
+}
+
+/* Padronização dos links no header */
+.nav-item{
+    color: black;
+    padding: 1rem .8rem;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+.nav-item:hover{
+    background-color: rgb(168, 81, 168);
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    color: black;
+    padding: 1rem .8rem;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+
+/* Ancorando os links para ficarem no lado direito */
+@media screen and (min-width:1000px){
+    .navbar-nav{
+    margin-left: auto;
+    }
+}
+
+/* Ajustando o texto do footer */
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link:hover{
+    text-decoration: none;
+    color: rgb(168, 81, 168);
+}
+
+.container-text a{
+    text-decoration: none;
+}
