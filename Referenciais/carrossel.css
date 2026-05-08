@@ -28,8 +28,9 @@
 
 .carousel{
     margin: 14px;
-    height: 70%;
+    height: 80vh;
     width: auto;
+    object-fit: cover;
 }
 
 .carousel a{
