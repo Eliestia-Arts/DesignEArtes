@@ -24,11 +24,12 @@
 
 .carousel-inner img{
     height: 81vh;
+    object-fit: cover;
 }
 
 .carousel{
     margin: 14px;
-    height: 70%;
+    height: 50%;
     width: auto;
 }
 
