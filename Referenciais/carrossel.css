@@ -29,8 +29,7 @@
 
 .carousel{
     margin: 14px;
-    height: 80vh;
-    width: auto;
+    min-height: 80%;
     max-width: 100%;
 }
 
