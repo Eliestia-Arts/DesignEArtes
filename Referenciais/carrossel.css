@@ -24,13 +24,13 @@
 
 .carousel-inner img{
     height: 81vh;
-    object-fit: fill;
 }
 
 .carousel{
     margin: 14px;
     height: 80vh;
     width: auto;
+    object-fit: fill;
 }
 
 .carousel a{
