@@ -23,13 +23,17 @@
 }
 
 .carousel-inner img{
-    height: 50vh;
+    height: 81vh;
+    min-width: 100%;
+    aspect-ratio: 16 / 9;
 }
 
 .carousel{
     margin: 14px;
-    height: 50vh;
+    height: 80vh;
     width: auto;
+    min-width: 100%;
+    aspect-ratio: 16 / 9;
 }
 
 .carousel a{
