@@ -23,12 +23,12 @@
 }
 
 .carousel-inner img{
-    height: 81vh;
+    height: auto;
 }
 
 .carousel{
     margin: 14px;
-    height: 50vh;
+    height: 80vh;
     width: auto;
 }
 
