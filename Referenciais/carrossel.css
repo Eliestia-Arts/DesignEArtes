@@ -24,7 +24,7 @@
 
 .carousel-inner img{
     height: 81vh;
-    object-fit: auto;
+    object-fit: fill;
 }
 
 .carousel{
