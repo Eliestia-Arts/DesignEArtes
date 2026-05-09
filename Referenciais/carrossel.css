@@ -23,7 +23,8 @@
 }
 
 .carousel-inner img{
-    height: auto;
+    height: 81hv;
+    object-fit: auto;
 }
 
 .carousel{
